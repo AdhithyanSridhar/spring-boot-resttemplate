@@ -75,12 +75,21 @@ Customer client: output for all cases:
 ======================================
 
 getForObject: Customer [name=tech, contact=123, age=26]
+
 200
+
 200
+
 {Content-Type=[application/json;charset=UTF-8], Transfer-Encoding=[chunked], Date=[Mon, 27 Aug 2018 13:03:59 GMT]}
+
 Customer [name=tech, contact=123, age=26]
+
 customerStr: {"name":"tech","contact":"123","age":"26"}
+
 customerObj:  Customer [name=tech, contact=123, age=26]
+
 customerCreated: Customer [name=user, contact=2423, age=23]
+
 Customer [name=user, contact=2423, age=23]
+
 getForObject: Customer [name=tech, contact=123, age=26]
